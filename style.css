@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Great+Vibes&family=Maven+Pro:wght@700&family=Monoton&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Gabriela&family=Great+Vibes&family=Maven+Pro:wght@700&family=Monoton&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.parent2{
+    background-image: url("image/Untitled-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 830px;
+}
+.hangry h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 57.68px;
+    color: black;
+    font-weight: bold;
+}
+.hangry h1{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 90.21px;
+    font-weight: bold;
+    color: black;
+}
+.hangry p{
+    font-size: 26.62px;
+    font-weight: bold;
+    color: black;
+}
+.monday{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.monday p{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 19.39px;
+    margin-right: 5%;
+    color: black;
+}
+.monday span{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 56.79px;
+    color: black;
+}
+.order-btn button{
+    font-size: 20.83px;
+    font-weight: bold;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.hangry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding-top: 30%;
+}
+.plate-img{
+    padding-top: 20%;
+}
+
+.parent1{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffe001;
+    z-index: 5;
+}
+.delivery{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+.iphone-flex{
+    display: flex;
+    align-items: center;
+    text-align: end;
+} 
+.menu-ul{
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.menu-ul ul{
+    padding-left: 0;
+    display: flex;
+}
+.menu-ul ul li a{
+    padding: 30px;
+    transition: 0.5s;
+    font-size: 16.67px;
+    font-weight: bold;
+}
+.expres h5{
+    font-size: 29.17px;
+    font-weight: bold;
+}
+.expres h4{
+    font-size: 29.17px;
+    font-weight: bold;
+}
+.icon{
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+.icon.close-btn{
+    position: absolute;
+    top: 14px;
+    right: 6%;
+}
+
+.parent3{
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.choose h1{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.choose p{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 16.67px;
+    color: black;
+}
+.spag img{
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+.enjoy-content h3{
+    font-size: 20.83px;
+    font-weight: bold;
+    padding-top: 10%;
+}
+.enjoy-content p{
+    font-size: 16.67px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.dolor button{
+    font-size: 16.67px;
+    font-weight: bold;
+    background-color: #ffe001;
+    padding: 10px 20px;
+    border: none;
+}
+.shape{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    top: 390px;
+}
+
+.parent4{
+    padding: 5% 0;
+    text-align: center;
+}
+.discover h3{
+    font-size: 20.83px;
+    font-weight: bold;
+    color: black;
+}
+.discover h1{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 41.67px;
+    color: black;
+    font-weight: bold;
+}
+.discover p{
+    font-size: 16.67px;
+    color: black;
+}
+
+.owl-theme{
+    padding-top: 5%;
+}
+
+.parent5{
+    padding: 10% 0;
+}
+.most-img{
+    position: relative;
+}
+.most-img img{
+    width: 100%;
+}
+.most-content{
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 30px 30px;
+}
+.most-content p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.most-content h1{
+    font-size: 41.67px;
+    font-weight: bold;
+}
+.try{
+    position: relative;
+}
+.try img{
+    width: 100%;
+    height: auto;
+}
+.more{
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 10px 30px;
+}
+.more p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.more h1{
+    font-size: 33.33px;
+    font-weight: bold;
+}
+.try-it{
+   position: relative;
+    z-index: -1;
+    margin-top: 32px;
+}
+.try-it img{
+    width: 100%;
+    height: auto;
+}
+.fresh{
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 10px 30px;
+}
+.fresh p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.fresh h1{
+    font-size: 33.33px;
+    font-weight: bold;
+}
+
+.parent6{
+    text-align: center;
+    padding: 5% 0;
+}
+.reserv P{
+    font-size: 20.83px;
+    font-weight: bold;
+    color: black;
+}
+.reserv h1{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+.find button{
+    font-size: 20.83px;
+    font-weight: bold;
+    background-color: #ffe001;
+    border:none ;
+    width: 100%;
+    padding: 8px 20px;
+    margin-top: 2%;
+}
+.input-name input{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 2% 0;
+}
+
+.parent7{
+    background-image: url("image/Untitled-24.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 630px;
+}
+.food4-img img{
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+.food4-content p{
+    font-size: 16.67px;
+    color: white;
+    font-weight: bold;
+}
+.location{
+    color: white;
+}
+.fa-location-dot{
+    color: #ffe001;
+}
+.fa-envelope{
+    color: #ffe001;
+}
+.location-icon span{
+    font-size: 16.67px;
+    font-weight: bold;
+}
+.locate span{
+    font-size: 16.67px;
+    font-weight: bold;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-top: 40%;
+}
+.last-social ul{
+    display: flex;
+    padding-top: 30%;
+    justify-content: end;
+}
+.last-social ul li a{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 10px;
+    padding: 10px;
+}
+.copy{
+    color: white;
+    padding-top: 20%;
+}
+.copy p{
+    font-size: 16.67px;
+    font-weight: bold;
+}
+
+@media(max-width:1224px){
+    .hangry{
+        padding-top: 35%;
+    }
+    .plate-img img{
+        padding-top: 20%;
+    }
+    .tree img {
+        padding-top: 14%;
+        left: 5%;
+    }
+    .pasta img {
+        padding-top: 14%;
+        left: 50%;
+    }
+    .tomato img {
+        bottom: 46%;
+        left: 43%;
+    }
+    .leaf img {
+        right: 0;
+        bottom: 50%;
+    }
+    .parent3{
+        padding-top: 5%;
+    }
+    .spag img{
+       display: none;
+    }
+    .inpu-name input{
+        padding: 0;
+    }
+    .menu-ul ul li a {
+        font-size: 11.67px;
+    }
+    .hangry h1 {
+        font-size: 85.21px;
+    }
+    .choose p { 
+        font-size: 15.67px;
+    }
+    .shape img{
+        padding-bottom: 8%;
+    }
+    .enjoy-content p {
+        font-size: 15.67px;
+    }
+    .food4-content p {
+        font-size: 14.67px;
+    }
+}
+@media(max-width:1024px){
+    .menu-ul ul li a{
+        padding: 20px;
+    }
+    .hangry h1{
+        font-size: 85.21px;
+    }
+    .tomato img{
+        bottom: 50%;
+    }
+    .spag img {
+        top: 40%;
+    }
+    .choose p{
+        font-size: 15.67px;
+    }
+    .enjoy-content p{
+        font-size: 15.67px;
+    }
+    .food4-content p{
+        font-size: 14.67px;
+    }
+    .more {
+        padding: 0px 30px;
+    }
+    .try-it {
+        margin-top: 27px;
+    }
+}
+@media(max-width:991px){
+    .icon, .icon .show{
+        display: block;
+    }
+    .icon .hide{
+        display: none;
+    }
+    .navbar .menu-ul{
+        position: fixed;
+        background: white;
+        top:8%;
+        left:-100%;
+        width:100%;
+        height:100vh;
+        max-width: 400px;
+        display: block;
+        padding: 50px 0;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    .menu-ul ul{
+        flex-direction: column;
+    }
+    .navbar .menu-ul.active{
+        left:0;
+    }
+    .navbar .menu-ul li{
+        margin-top: 45px;
+    }
+    .navbar .menu-ul li a{
+        font-size: 22px;
+    }
+    
+    .menu-ul li a:hover{
+        color:rgb(209, 15, 147);
+    }
+    .iphone-flex{
+        display: none;
+    }
+    .shape{
+        display: none;
+    }
+       .copy {
+        padding-top: 5%;
+    }
+    .try{
+        margin-top: 36px;
+    }
+    .plate-img {
+        padding-top: 0;
+    }
+    .plate-img img {
+        padding-top: 0;
+    }
+    .enjoy{
+        padding-bottom: 5%;
+    }
+    .enjoy-content h3 {
+        padding-top: 0;
+    }
+    .parent7{
+        text-align: center;
+    }
+    .location {
+        padding-top: 5%;
+    }
+    .last-social ul {
+        padding-top: 10%;
+        justify-content: center;
+    }
+}
+@media(max-width:800px){
+    .background-img{
+        display: none;
+    }
+    .spag{
+        display: none;
+    }
+    .find button{
+        margin-left: 0;
+    }
+    .parent6{
+        padding-top: 37%;
+    }
+    .inpu-name input {
+        width: 100%;
+    }
+    .inpu-name input {
+        width: 80%;
+        padding: 10px 4px;
+        border: 1px solid;
+        font-size: 25.67px;
+    }
+    .find button{
+        width: 80%;
+        padding: 10px 4px;
+        font-size: 20.83px;
+    }
+    .plate-img img {
+        padding-top: 0;
+    }
+    .shape{
+        display: none;
+    }
+    .enjoy-content h3{
+        padding-top: 0;
+    }
+    .enjoy-content h3{
+        font-size: 36.83px;
+    }
+    .enjoy-content p {
+        font-size: 29.67px;
+    }
+    .dolor button{
+        font-size: 26.67px;
+    }
+    .enjoy{
+        margin-bottom: 5%;
+    }
+    .find button{
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    .enjoy-content p {
+        font-size: 28.67px;
+    }
+}
+@media(max-width:575px){
+    .enjoy-content p {
+        font-size: 25.67px;
+    }
+    .discover p {
+        font-size: 15.67px;
+    }
+}
+@media(max-width:480px){
+    .navbar .menu-ul {
+        max-width: 270px;
+    }
+    .hangry h2 { 
+        font-size: 55.68px;
+    }
+    .hangry h1 {
+        font-size: 74.21px;
+    }
+    .choose p {
+        font-size: 13.67px;
+    }
+    .enjoy-content p {
+        font-size: 21.67px;
+    }
+    .discover p {
+        font-size: 13.67px;
+    }
+    .more h1 {
+        font-size: 24.33px;
+    }
+    .more p {
+        font-size: 23px;
+    }
+    .most-content h1 {
+        font-size: 32.67px;
+    }
+    .most-content p {
+        font-size: 23px;
+    }
+    .fresh p {
+        font-size: 23px;
+    }
+    .fresh h1 {
+        font-size: 27.33px;
+    }
+    .reserv h1 {
+        font-size: 47px;
+    }
+    .food4-content p {
+        font-size: 12.67px;
+    }
+}
+@media(max-width:420px){
+    .hangry h2 {
+        font-size: 50.68px;
+    }
+    .hangry h1 {
+        font-size: 65.21px;
+    }
+    .choose p {
+        font-size: 11.67px;
+    }
+    .enjoy-content p {
+        font-size: 19.67px;
+    }
+    .discover p {
+        font-size: 12.67px;
+    }
+    .most-content h1 {
+        font-size: 29.67px;
+    }
+    .more h1 {
+        font-size: 20.33px;
+    }
+    .more p {
+        font-size: 20px;
+    }
+    .fresh p {
+        font-size: 20px;
+    }
+    .fresh h1 {
+        font-size: 25.33px;
+    }
+    .reserv h1 {
+        font-size: 42px;
+    }
+    .food4-content p {
+        font-size: 11.67px;
+    }
+}
+@media(max-width:375px){
+    .hangry h2 {
+        font-size: 42.68px;
+    }
+    .hangry h1 {
+        font-size: 55.21px;
+    }
+    .hangry p {
+        font-size: 22.62px;
+    }
+    .monday{
+        flex-direction: column;
+    }
+    .choose h1 {
+        font-size: 44px;
+    }
+    .choose p {
+        font-size: 9.67px;
+    }
+    .enjoy-content h3 {
+        font-size: 32.83px;
+    }
+    .enjoy-content p {
+        font-size: 16.67px;
+    }
+    .dolor button {
+        font-size: 20.67px;
+    }
+    .discover h1 {
+        font-size: 37.67px;
+    }
+    .discover p {
+        font-size: 10.67px;
+    }
+    .most-content p {
+        font-size: 19px;
+    }
+    .most-content h1 {
+        font-size: 23.67px;
+    }
+    .more p {
+        font-size: 17px;
+    }
+    .more h1 {
+        font-size: 17.33px;
+    }
+    .fresh p {
+        font-size: 17px;
+    }
+    .fresh h1 {
+        font-size: 20.33px;
+    }
+    .parent6 {
+        padding-top: 10%;
+    }
+    .reserv h1 {
+        font-size: 36px;
+    }
+    .food4-content p {
+        font-size: 9.67px;
+    }
+    .food4-img img {
+        width: 100%;
+    }
+    .copy p {
+        font-size: 13.67px;
+    }
+    .location-icon span {
+        font-size: 15.67px;
+    }
+    .last-social ul {
+        padding-left: 0;
+    }
+}
